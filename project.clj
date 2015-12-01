@@ -5,4 +5,7 @@
             :url "http://www.eclipse.org/legal/epl-v20.html"}
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [riemann "0.2.10"]
-                 [clj-http "1.1.2"]])
+                 [clj-http "1.1.2"]]
+  :test-selectors {:default (fn [x] (not (:integration x)))
+                   :integration :integration
+                   :all (fn [_] true)})
