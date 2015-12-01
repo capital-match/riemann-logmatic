@@ -10,7 +10,7 @@ First build the project:
 
     lein uberjar
 
-The resulting artifact will be in `target/riemann-logmatic-standalone-0.1.0.jar`. You will need to push that jar on the machine(s) where riemann runs, for instance, in `/usr/lib/riemann/riemann-kafka.jar`.
+The resulting artifact will be in `target/riemann-logmatic-standalone-0.1.0.jar`. You will need to push that jar on the machine(s) where riemann runs, for instance, in `/usr/lib/riemann/riemann-logmatic.jar`.
 
 If you have installed riemann from a stock package you will only need to tweak `/etc/default/riemann` and change the line `EXTRA_CLASSPATH` to read:
 
