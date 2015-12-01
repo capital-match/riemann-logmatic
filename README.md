@@ -2,6 +2,8 @@
 
 A simple [riemann](http://riemann.io) plugin to send events to [Logmatic](http://logmatic.io). 
 
+![](https://travis-ci.org/capital-match/riemann-logmatic.svg?branch=master)
+
 ## Installing
 
 You will need to build this module for now and push it on riemann's classpath, for this you will need a working JDK, JRE and leiningen.
