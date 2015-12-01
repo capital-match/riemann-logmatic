@@ -1,0 +1,4 @@
+{:plugin "logmatic"
+ :title  "A plugin sending event to logmatic"
+ :git-repo "https://github.com/capital-match/riemann-logmatic"
+ :require riemann.logmatic}
